@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour, IStackable
         IsDead = false;
         ragdoll.DisableRagdoll() ;
 
-        transform.rotation = Quaternion.identity;
+        transform.rotation = Quaternion.Euler(0, Random.Range(0, 190), 0);
 
     }
 

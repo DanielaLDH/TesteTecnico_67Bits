@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerColor : MonoBehaviour
 {
+
     [SerializeField] private Renderer playerRenderer;
     [SerializeField] private Material[] upgradeMaterials;
 
